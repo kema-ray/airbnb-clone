@@ -1,20 +1,28 @@
 import "./App.css";
-import Footer from "./Footer";
+import Header from "./Header";
 import Home from "./Home";
-import Search from "./Search";
 
 function App() {
   return (
-    <div className="app">
-      {/* Home */}
-      <Home />
 
-      {/* Searchpage */}
-      <Search />
-      {/* Header */}
-      {/* Footer */}
-      <Footer />
-    </div>
+    // BEM(Block Element Modifier)
+    <div className="app">
+    <Header />
+    <Home />
+
+    {/*Home*/}
+      {/*Header */}
+    
+      {/*Banner */}
+          {/*Search*/}
+
+      {/*Cards */}
+
+      {/*Footer */}
+
+    {/*SearchPage */}
+      
+   </div>
   );
 }
 

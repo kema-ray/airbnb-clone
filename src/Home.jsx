@@ -1,22 +1,16 @@
-import React from "react";
-import Banner from "./Banner";
-import Cards from "./Cards";
-import Header from "./Header";
-import "./Home.css";
+import React from 'react'
+import './Home.css';
+import Banner from './Banner'
+
+// ES7 snippets to do "rfce"
 
 function Home() {
   return (
-    <div className="home">
-      {/* Header */}
-      <Header />
-
-      {/* Banner */}
+    <div className='home'>
+      {/*<h1>Home Component</h1>*/}
       <Banner />
-
-      {/* Cards */}
-      <Cards />
     </div>
-  );
+  )
 }
 
-export default Home;
+export default Home
